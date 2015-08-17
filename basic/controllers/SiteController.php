@@ -113,4 +113,10 @@ class SiteController extends Controller
             return $this->render('entry', ['model' => $model]);
         }
     }
+
+    public function actionMyexp()
+    {
+        $somestupidvar = 'mazafaka';
+        return $this->render('mygreatexp',['ssv' => $somestupidvar]);
+    }
 }

@@ -1,5 +1,6 @@
 # phpstorm project files
 .idea
+.idea/
 
 # netbeans project files
 nbproject
@@ -25,3 +26,7 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+
+/assets
+/web/assets
+/runtime
