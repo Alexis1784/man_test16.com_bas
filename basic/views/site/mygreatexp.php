@@ -10,3 +10,4 @@ use yii\helpers\Html;
 
 <?= Html::encode($ssv) ?>
 <?= $this->render('mygreate_view_in_view') ?>
+<?= $this->render('\country\mygreatexp_another_place') ?>
