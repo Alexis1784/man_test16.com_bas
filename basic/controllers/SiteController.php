@@ -119,4 +119,15 @@ class SiteController extends Controller
         $somestupidvar = 'mazafaka';
         return $this->render('mygreatexp',['ssv' => $somestupidvar]);
     }
+
+    public function actionMyexp2()
+    {
+        $someparam = 'sometext';
+        return $this->render('name_of_view_in_dir_of_controller_name',['var_creating_in_action' => $someparam]);
+    }
+
+    public function actionMyexp3()
+    {
+        return \Yii::$app->view->renderFile('@app/views/country/mygreatexp_another_place.php');
+    }
 }

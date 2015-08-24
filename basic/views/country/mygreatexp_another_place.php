@@ -8,6 +8,6 @@
 use yii\helpers\Html;
 ?>
 
-<?= Html::encode(sss) ?>
+<?= Html::encode('sss') ?>
 
 
